@@ -3,7 +3,7 @@ const MANIFEST = 'flutter-app-manifest';
 const TEMP = 'flutter-temp-cache';
 const CACHE_NAME = 'flutter-app-cache';
 const RESOURCES = {
-  "assets/AssetManifest.json": "eb041d5399d46e903c49d091fd9ef082",
+  "assets/AssetManifest.json": "65abe6ea099ce7dd753f10fb03e841b0",
 "assets/assets/fonts/OpenSans/OpenSans-Bold.ttf": "5bc6b8360236a197d59e55f72b02d4bf",
 "assets/assets/fonts/OpenSans/OpenSans-Light.ttf": "3dd221ea976bc4c617c40d366580bfe8",
 "assets/assets/fonts/OpenSans/OpenSans-Medium.ttf": "0cbcac22e73cab1d6dbf2cfcc269b942",
@@ -11,6 +11,7 @@ const RESOURCES = {
 "assets/assets/fonts/OpenSans/OpenSans-SemiBold.ttf": "af0b2118d34dcaf6e671ee67cf4d5be2",
 "assets/assets/images/hero.png": "ca270aebabde66038d6641a1be620ef9",
 "assets/assets/images/tick_mark.png": "057903ec82e0651d1facd6424cee97b7",
+"assets/assets/static/Resume%2520of%2520KKK.docx": "7eb459b5b970050103533963a138cc8c",
 "assets/FontManifest.json": "25303b6ca343b79a8f2bbea31008d8ce",
 "assets/fonts/MaterialIcons-Regular.otf": "4e6447691c9509f7acdbf8a931a85ca1",
 "assets/NOTICES": "a04f455ca04f9ab204b19500eafbe92a",
@@ -21,9 +22,9 @@ const RESOURCES = {
 "favicon.png": "5dcef449791fa27946b3d35ad8803796",
 "icons/Icon-192.png": "ac9a721a12bbc803b44f645561ecb1e1",
 "icons/Icon-512.png": "96e752610906ba2a93c65f8abe1645f1",
-"index.html": "d7f38006c6e9858052ba857ff07cf021",
-"/": "d7f38006c6e9858052ba857ff07cf021",
-"main.dart.js": "b1297b512f4bfee9384409dcb1f66b4e",
+"index.html": "d8f7fbb146e8133c10904682e16f8188",
+"/": "d8f7fbb146e8133c10904682e16f8188",
+"main.dart.js": "e31aa7f4bc6dea3f3826d6dc3d8cc638",
 "manifest.json": "5a2c0526f1fe73e6f211bc7a9d15c210",
 "version.json": "426313f2f3133c2f20415344c4a22df3"
 };

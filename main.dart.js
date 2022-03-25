@@ -54164,7 +54164,7 @@ o.push(T.tv(q,M.aw(q,T.c1(H.a([r.ob(C.i9,"https://www.facebook.com/khant.ko"),T.
 o=r.nA(b)
 return M.aw(q,new M.hd(r.nA(b),o,p,q),C.i,q,q,q,q,q,1/0)}}
 S.a0A.prototype={
-$0:function(){var s="/lib/static_file/Resume of KKK.docx",r=W.aab(s)
+$0:function(){var s="assets/static/Resume of KKK.docx",r=W.aab(s)
 r.download=s
 r.setAttribute("download","Resume of KKK.docx")
 r.click()},
