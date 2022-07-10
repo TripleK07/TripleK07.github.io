@@ -3,18 +3,19 @@ const MANIFEST = 'flutter-app-manifest';
 const TEMP = 'flutter-temp-cache';
 const CACHE_NAME = 'flutter-app-cache';
 const RESOURCES = {
-  "assets/AssetManifest.json": "2e71c61400f294a3585abca04f97161c",
+  "assets/AssetManifest.json": "0acbe540c1ff441053503f6436c95049",
 "assets/assets/fonts/OpenSans/OpenSans-Bold.ttf": "5bc6b8360236a197d59e55f72b02d4bf",
 "assets/assets/fonts/OpenSans/OpenSans-Light.ttf": "3dd221ea976bc4c617c40d366580bfe8",
 "assets/assets/fonts/OpenSans/OpenSans-Medium.ttf": "0cbcac22e73cab1d6dbf2cfcc269b942",
 "assets/assets/fonts/OpenSans/OpenSans-Regular.ttf": "3eb5459d91a5743e0deaf2c7d7896b08",
 "assets/assets/fonts/OpenSans/OpenSans-SemiBold.ttf": "af0b2118d34dcaf6e671ee67cf4d5be2",
-"assets/assets/images/hero.png": "ca270aebabde66038d6641a1be620ef9",
+"assets/assets/images/hero.png": "3d9b59715d8680e3d1cc998eb2e1dbbd",
+"assets/assets/images/hero2.png": "ca270aebabde66038d6641a1be620ef9",
 "assets/assets/images/tick_mark.png": "057903ec82e0651d1facd6424cee97b7",
 "assets/assets/static/ResumeOfKKK.docx": "7eb459b5b970050103533963a138cc8c",
 "assets/FontManifest.json": "25303b6ca343b79a8f2bbea31008d8ce",
 "assets/fonts/MaterialIcons-Regular.otf": "4e6447691c9509f7acdbf8a931a85ca1",
-"assets/NOTICES": "d907b49f37f79322b7c9105964b8cf6f",
+"assets/NOTICES": "8ce4428385e1af6537403bf17f1ee182",
 "assets/packages/cupertino_icons/assets/CupertinoIcons.ttf": "6d342eb68f170c97609e9da345464e5e",
 "assets/packages/font_awesome_flutter/lib/fonts/fa-brands-400.ttf": "5ada3c4c2aaf5beada1fd8e25ad6ad09",
 "assets/packages/font_awesome_flutter/lib/fonts/fa-regular-400.ttf": "6ffb39c8cb9e8d35ebbc2e35d2c34da5",
@@ -22,9 +23,9 @@ const RESOURCES = {
 "favicon.png": "5dcef449791fa27946b3d35ad8803796",
 "icons/Icon-192.png": "ac9a721a12bbc803b44f645561ecb1e1",
 "icons/Icon-512.png": "96e752610906ba2a93c65f8abe1645f1",
-"index.html": "029d817f916d7c1c852b764feeacc91f",
-"/": "029d817f916d7c1c852b764feeacc91f",
-"main.dart.js": "1581329744ea8209b31e411ee30c04f3",
+"index.html": "b8bb199fcb8b2e6e1a6ec327a0d96880",
+"/": "b8bb199fcb8b2e6e1a6ec327a0d96880",
+"main.dart.js": "6387afaa603c61d59a1a4347fb389493",
 "manifest.json": "5a2c0526f1fe73e6f211bc7a9d15c210",
 "version.json": "426313f2f3133c2f20415344c4a22df3"
 };
