@@ -1,0 +1,124 @@
+{
+  "hero": {
+    "welcomeText": "Welcome to My Professional Profile",
+    "name": "Khant Ko Ko",
+    "title": "System Analyst",
+    "description": "Software Engineer with over a decade of experience designing, building, and scaling robust enterprise systems. Proven track record of leveraging the .NET ecosystem and cloud architectures to deliver high-availability solutions across highly regulated and complex domains, including finance, retail, utilities, and healthcare. Adept at bridging the gap between complex business requirements and clean, maintainable code, with a strong focus on system integration, database optimization, and modernizing legacy infrastructure.",
+    "profileImage": "assets/images/profile.png",
+    "rating": "99%",
+    "ratingTitle" : "Project Success",
+    "ratingDescription": "Transforming complex business requirements into high-performing, optimized workflows that accelerate system efficiency and reduce operational bottlenecks.",
+    "experienceYears": 11,
+    "experienceText": "Delivering high-quality software solutions for enterprise organizations across multiple industries.",
+    "avatars": []
+  },
+  "education": [
+    {
+      "year": "2014",
+      "degree": "Bachelor of Computer Science (B.C.SC – Hons.)",
+      "university": "University of Computer Studies, Yangon",
+      "description": "Specialized in Software Engineering."
+    },
+    {
+      "year": "2024",
+      "degree": "Azure Developer Associate (AZ-204)",
+      "university": "Microsoft Certified",
+      "description": "Certification validates the skills and knowledge required to design, build, test, and maintain cloud applications and services on Microsoft Azure."
+    },
+    {
+      "year": "2016",
+      "degree": "Web Development with Domain Driven Design Architecture",
+      "university": "Myanmar Computer Professionals Association",
+      "description": "Comprehensive Web Development Training (Frontend & Backend) with Domain-Driven Design (DDD) Architecture."
+    }
+  ],
+  "experience": [
+    {
+      "period": "2024 - Present",
+      "title": "System Analyst",
+      "company": "Creative Technology Ltd., Singapore",
+      "link": "https://sg.creative.com/"
+    },
+    {
+      "period": "2023 - 2024",
+      "title": "Senior Software Engineer",
+      "company": "Toppan Ecquaria Pte. Ltd., Singapore",
+      "link": "https://www.toppanecquaria.com/"
+    },
+    {
+      "period": "2022 - 2023",
+      "title": "Software Engineer",
+      "company": "YTL Powerseraya Pte. Ltd., Singapore",
+      "link": "https://ytlpowerseraya.com.sg/"
+    },
+    {
+      "period": "2021 - 2022",
+      "title": "Senior Software Engineer",
+      "company": "Myanma Apex Bank (MAB), Myanmar ",
+      "link": "https://www.mabbank.com/"
+    },
+    {
+      "period": "2016 - 2020",
+      "title": "Senior Software Engineer",
+      "company": "Myanmar Information Technology (MIT), Myanmar",
+      "link": "https://www.mit.com.mm/"
+    },
+    {
+      "period": "2014 - 2016",
+      "title": "Junior Developer",
+      "company": "Devnet Solution Provider, Myanmar",
+      "link": "https://devnet.solutions/"
+    }
+  ],
+  "skills": [
+    {
+      "category": "Frontend Development",
+      "items": ["React", "TypeScript", "JavaScript", "HTML5", "CSS3", "Tailwind CSS", "Bootstrap", "jQuery"]
+    },
+    {
+      "category": "Backend Development",
+      "items": ["C#", "ASP.NET Core", "Entity Framework Core", "Dapper", "GraphQL", "REST APIs", "SOAP APIs"]
+    },
+    {
+      "category": "Cloud & DevOps",
+      "items": ["Microsoft Azure", "Azure DevOps", "Docker", "CI/CD", "Git", "GitHub", "Bitbucket"]
+    },
+    {
+      "category": "Enterprise Solutions",
+      "items": ["OPC UA", "Crystal Reports", "DevExpress"]
+    }
+  ],
+  "contact": {
+    "badge": "Available for Opportunities",
+    "title": "Let's build something impactful together.",
+    "description": "Whether you're looking for a developer, system analyst, technical consultant, or long-term collaborator, I'd be happy to discuss your project and explore how I can help.",
+    "highlights": [
+      {
+        "number": "11+",
+        "label": "Years Experience"
+      },
+      {
+        "number": "20+",
+        "label": "Enterprise Projects"
+      },
+      {
+        "number": "100%",
+        "label": "Remote Friendly"
+      }
+    ],
+    "form": {
+      "title": "Send a Message",
+      "buttonText": "Send Message",
+      "placeholders": {
+        "name": "Your Name",
+        "subject": "Title",
+        "message": "Tell me about your project..."
+      }
+    },
+    "email": "khantkoko27@gmail.com"
+  },
+  "socials": {
+    "linkedin": "https://www.linkedin.com/in/khant-ko-ko-a247b0116/",
+    "github": "https://github.com/TripleK07"
+  }
+}

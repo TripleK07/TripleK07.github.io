@@ -1,0 +1,487 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Khant Ko Ko - Portfolio</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+    <!-- Scroll Progress Bar -->
+    <div class="scroll-progress-bar"></div>
+
+    <!-- NAVBAR - Full width background -->
+    <div class="dark-nav-bg sticky-top mt-3 navbar-animate">
+        <div class="container py-3 d-flex justify-content-center">
+            <nav class="navbar navbar-expand-lg navbar-custom">
+                <div class="container-fluid d-flex justify-content-between justify-content-lg-center align-items-center">
+                    <a class="navbar-brand text-white fw-bold d-lg-none" href="#" style="font-size: 1.1rem; letter-spacing: 0.5px; margin: 0;">Khant Ko Ko</a>
+
+                    <button class="navbar-toggler bg-light border-0" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#navbarMenu" style="border-radius: 50%; padding: 8px;">
+                        <span class="navbar-toggler-icon" style="width: 20px; height: 20px;"></span>
+                    </button>
+
+                    <div class="collapse navbar-collapse" id="navbarMenu">
+                        <ul
+                            class="navbar-nav d-flex flex-row flex-wrap justify-content-center align-items-center gap-1">
+                            <li class="nav-item">
+                                <a class="nav-link text-white" href="#about">About</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link text-white" href="#education">Education</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link text-white" href="#experience">Experience</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link text-white" href="#skills">Skills</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link text-white" href="#contact">Contact</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+        </div>
+    </div>
+
+    <!-- HERO -->
+    <section class="hero-container py-5" id="about">
+        <div class="hero-content">
+            <div class="hero-badge hero-animate">
+                <span id="welcomeText"></span>
+            </div>
+
+            <div class="hero-title-container">
+                <h1 class="hero-title hero-animate mt-3" id="heroTitle"></h1>
+                <p class="hero-description hero-animate mt-3" id="heroDescription"></p>
+            </div>
+
+            <div class="hero-image-wrapper hero-image-wrapper-animate">
+                <div class="hero-circle hero-animate"></div>
+                <img id="heroImage" class="hero-image hero-animate" src="" alt="Profile">
+                <div class="floating-card rating-card">
+                    <div class="d-flex align-items-center justify-content-start gap-2 w-100 text-start">
+                        <h2 id="ratingValue"></h2>
+                        <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="#000" stroke-width="3"
+                            stroke-linecap="round" stroke-linejoin="round">
+                            <path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"></path>
+                            <polyline points="22 4 12 14.01 9 11.01"></polyline>
+                        </svg>
+                    </div>
+                    <div class="d-flex align-items-start w-100 text-start">
+                        <div>
+                            <h4 class="fw-bold" id="ratingTitle"></h4>
+                            <hr>
+                            <small class="text-muted d-block" id="ratingDescription"></small>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="floating-card experience-card text-start">
+                    <h2 id="experienceYears"></h2>
+                    <h4 class="fw-bold">Years of Experience</h4>
+                    <hr>
+                    <p class="text-light opacity-75 mb-0" id="experienceText"></p>
+                </div>
+            </div>
+    </section>
+
+    <section class="education-section" id="education">
+        <div class="container">
+            <div class="section-title">
+                <h2>Education</h2>
+            </div>
+
+            <div class="timeline" id="educationTimeline">
+                <!-- Education items will be dynamically inserted here -->
+            </div>
+        </div>
+    </section>
+
+    <section class="experience-section" id="experience">
+        <div class="container">
+            <div class="section-title">
+                <h2>Experience</h2>
+            </div>
+
+            <div class="career-timeline" id="experienceTimeline">
+                <!-- Experience items will be dynamically inserted here -->
+            </div>
+        </div>
+    </section>
+
+    <section class="skills-section" id="skills">
+        <div class="container">
+            <div class="section-title">
+                <h2>Technical Skills</h2>
+            </div>
+
+            <div class="skills-wrapper" id="skillsContainer">
+                <!-- Skills will be dynamically inserted here -->
+            </div>
+        </div>
+    </section>
+
+    <section class="skills-section" id="contact">
+        <div class="container contact-v2__wrapper">
+            <div class="contact-v2__content">
+                <span id="contactBadge" class="contact-v2__badge">
+                    <!-- Badge text will be dynamically inserted here -->
+                </span>
+
+                <h2 id="contactTitle" class="contact-v2__title">
+                    <!-- Title text will be dynamically inserted here -->
+                </h2>
+
+                <p id="contactDescription" class="contact-v2__description">
+                    <!-- Description text will be dynamically inserted here -->
+                </p>
+
+                <div id="contactHighlights" class="contact-v2__highlights">
+                    <!-- Highlights will be dynamically inserted here -->
+                </div>
+
+            </div>
+
+            <div class="contact-v2__form-panel">
+
+                <h3 id="contactFormTitle" class="contact-v2__form-title">
+                    <!-- Form title will be dynamically inserted here -->
+                </h3>
+
+                <form id="contactV2Form">
+
+                    <div class="contact-v2__row">
+                        <input class="contact-v2__input" type="text" id="contactName" placeholder="Your Name" required>
+                    </div>
+
+                    <div class="contact-v2__row">
+                        <input class="contact-v2__input" type="text" id="contactSubject" placeholder="Title" required>
+                    </div>
+
+                    <div class="contact-v2__row">
+                        <textarea class="contact-v2__textarea" id="contactMessage"
+                            placeholder="Tell me about your project..." required></textarea>
+                    </div>
+
+                    <button type="submit" class="contact-v2__button">
+
+                        <span id="contactButtonText">Send Message</span>
+
+                        <svg width="18" height="18" viewBox="0 0 24 24">
+                            <path fill="currentColor" d="M13.17 12L8.58 7.41L10 6l6 6l-6 6l-1.41-1.41z" />
+                        </svg>
+
+                    </button>
+
+                </form>
+
+            </div>
+
+        </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer class="footer py-5 mt-5 reveal">
+        <div class="container d-flex flex-column flex-md-row align-items-center justify-content-between gap-3 text-center text-md-start">
+            <div class="footer__copyright">
+                <p class="mb-0">&copy; <span id="footerYear"></span> <span id="footerName"></span>. All Rights Reserved.</p>
+            </div>
+            <div class="footer__socials d-flex flex-column flex-sm-row align-items-center gap-2 gap-sm-3">
+                <span>Follow me on Socials:</span>
+                <div class="d-flex align-items-center gap-3" id="footerSocials">
+                    <!-- Social links inserted dynamically -->
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        // Load JSON data from assets/data/data.json
+        fetch('assets/data/data.json')
+            .then(response => response.json())
+            .then(data => {
+                const heroData = data.hero;
+                const educationData = data.education;
+                const experienceData = data.experience;
+                const skillsData = data.skills;
+                const contactData = data.contact;
+
+                // Set the dynamic data to HTML elements
+                document.getElementById("welcomeText").textContent = heroData.welcomeText;
+
+                document.getElementById("heroTitle").innerHTML =
+                    `Hi, I'm ${heroData.name}, ${heroData.title}`;
+
+                document.getElementById("heroDescription").textContent = heroData.description;
+                document.getElementById("heroImage").src = heroData.profileImage;
+                document.getElementById("experienceYears").textContent = heroData.experienceYears + "+";
+                document.getElementById("experienceText").textContent = heroData.experienceText;
+                document.getElementById("ratingValue").textContent = heroData.rating;
+                document.getElementById("ratingTitle").textContent = heroData.ratingTitle;
+                document.getElementById("ratingDescription").textContent = heroData.ratingDescription;
+
+                // Set avatar images
+                const avatarHtml = heroData.avatars
+                    .map(url => `<img src="${url}" alt="">`)
+                    .join('');
+
+                // Populate education section
+                const educationHtml = educationData
+                    .map((edu, index) => `
+                        <div class="timeline-item">
+                            <div class="timeline-year">${edu.year}</div>
+                            <div class="timeline-content">
+                                <span class="university">${edu.university}</span>
+                                <h3>${edu.degree}</h3>
+                                <p>${edu.description}</p>
+                            </div>
+                        </div>
+                    `)
+                    .join('');
+                document.getElementById("educationTimeline").innerHTML = educationHtml;
+
+                // Populate experience section
+                const experienceHtml = experienceData
+                    .map((exp, index) => `
+                        <div class="career-timeline-item">
+                            <div class="period-badge">${exp.period}</div>
+                            <div class="career-content">
+                                <h3 class="career-title">${exp.title}</h3>
+                                <p class="career-company">${exp.company}</p>
+                            </div>
+                            <div class="career-logo-section">
+                                <a href="${exp.link}" class="external-link-btn" target="_blank" rel="noopener noreferrer">
+                                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                        <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path>
+                                        <polyline points="15 3 21 3 21 9"></polyline>
+                                        <line x1="10" y1="14" x2="21" y2="3"></line>
+                                    </svg>
+                                </a>
+                            </div>
+                        </div>
+                    `)
+                    .join('');
+                document.getElementById("experienceTimeline").innerHTML = experienceHtml;
+
+                // Populate skills section
+                const skillsHtml = skillsData
+                    .map(skillGroup => `
+                        <div class="skill-group">
+                            <div class="skill-group-header">
+                                <h3>${skillGroup.category}</h3>
+                                <div class="line"></div>
+                            </div>
+                            <div class="skills">
+                                ${skillGroup.items.map(skill => `<span class="skill-pill">${skill}</span>`).join('')}
+                            </div>
+                        </div>
+                    `)
+                    .join('');
+
+                document.getElementById("skillsContainer").innerHTML = skillsHtml;
+
+// Populate contact section
+                console.log('Contact data loaded:', contactData); // Debug statement
+                document.getElementById("contactBadge").textContent = contactData.badge;
+                document.getElementById("contactTitle").textContent = contactData.title;
+                document.getElementById("contactDescription").textContent = contactData.description;
+                
+                // Update form placeholders
+                document.getElementById("contactName").placeholder = contactData.form.placeholders.name;
+                document.getElementById("contactSubject").placeholder = contactData.form.placeholders.subject;
+                document.getElementById("contactMessage").placeholder = contactData.form.placeholders.message;
+                
+                // Update form title and button text
+                document.getElementById("contactFormTitle").textContent = contactData.form.title;
+                document.getElementById("contactButtonText").textContent = contactData.form.buttonText;
+                
+                // Populate contact highlights
+                const highlightsHtml = contactData.highlights
+                    .map(highlight => `
+                        <div class="contact-v2__card">
+                            <span class="contact-v2__number">${highlight.number}</span>
+                            <span class="contact-v2__label">${highlight.label}</span>
+                        </div>
+                    `)
+                    .join('');
+                
+                document.getElementById("contactHighlights").innerHTML = highlightsHtml;
+
+                // Add form event listener
+                document.getElementById('contactV2Form')
+                    .addEventListener('submit', function (e) {
+
+                        e.preventDefault();
+
+                        const name = document.getElementById('contactName').value;
+                        const subject = document.getElementById('contactSubject').value || 'Project Inquiry';
+                        const message = document.getElementById('contactMessage').value;
+
+                        // Format body for mailto
+                        const body = 
+                            `Name: ${name}\n\nMessage:\n${message}`;
+
+                        // Create mailto URL
+                        const mailtoURL = `mailto:${contactData.email}?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`;
+                        
+                        console.log('Contact email from data:', contactData.email); // Debug statement
+                        console.log('Attempting to open email client with:', mailtoURL);
+                        window.location.href = mailtoURL;
+                    });
+
+                // Populate footer data
+                document.getElementById("footerYear").textContent = new Date().getFullYear();
+                document.getElementById("footerName").textContent = heroData.name;
+
+                const socialsData = data.socials;
+                const socialsHtml = `
+                    <a href="${socialsData.linkedin}" target="_blank" rel="noopener noreferrer" class="social-link-btn" aria-label="LinkedIn">
+                        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            <path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path>
+                            <rect x="2" y="9" width="4" height="12"></rect>
+                            <circle cx="4" cy="4" r="2"></circle>
+                        </svg>
+                    </a>
+                    <a href="${socialsData.github}" target="_blank" rel="noopener noreferrer" class="social-link-btn" aria-label="GitHub">
+                        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            <path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path>
+                        </svg>
+                    </a>
+                `;
+                document.getElementById("footerSocials").innerHTML = socialsHtml;
+
+                // Scroll Reveal Animations
+                // 1. Hero components (loaded immediately with beautiful stagger)
+                const navbar = document.querySelector('.navbar-animate');
+                const heroBadge = document.querySelector('.hero-badge');
+                const heroTitle = document.querySelector('#heroTitle');
+                const heroDescription = document.querySelector('#heroDescription');
+                const heroImage = document.querySelector('#heroImage');
+                const heroCircle = document.querySelector('.hero-circle');
+                const heroImageWrapper = document.querySelector('.hero-image-wrapper');
+
+                // Trigger hero load animation on mount once data is populated
+                requestAnimationFrame(() => {
+                    setTimeout(() => {
+                        if (navbar) navbar.classList.add('loaded');
+                        if (heroBadge) heroBadge.classList.add('loaded');
+                        if (heroTitle) heroTitle.classList.add('loaded');
+                        if (heroDescription) heroDescription.classList.add('loaded');
+                        if (heroImage) heroImage.classList.add('loaded');
+                        if (heroCircle) heroCircle.classList.add('loaded');
+                        if (heroImageWrapper) heroImageWrapper.classList.add('loaded');
+                    }, 50);
+                });
+
+                // 2. Section titles
+                document.querySelectorAll('.section-title').forEach(title => {
+                    title.classList.add('reveal');
+                });
+
+                // 3. Education Timeline items
+                document.querySelectorAll('.timeline-item').forEach((item, index) => {
+                    item.classList.add('reveal');
+                    item.style.transitionDelay = `${(index % 3) * 120}ms`;
+                });
+
+                // 4. Experience Timeline items
+                document.querySelectorAll('.career-timeline-item').forEach((item, index) => {
+                    item.classList.add('reveal');
+                    item.style.transitionDelay = `${(index % 3) * 120}ms`;
+                });
+
+                // 5. Skill groups
+                document.querySelectorAll('.skill-group').forEach((item, index) => {
+                    item.classList.add('reveal');
+                    item.style.transitionDelay = `${(index % 3) * 120}ms`;
+                });
+
+                // 6. Contact Panel contents
+                const contactContent = document.querySelector('.contact-v2__content');
+                const contactForm = document.querySelector('.contact-v2__form-panel');
+                if (contactContent) contactContent.classList.add('reveal');
+                if (contactForm) {
+                    contactForm.classList.add('reveal');
+                    contactForm.style.transitionDelay = '150ms';
+                }
+
+                // Intersection Observer Options
+                const observerOptions = {
+                    root: null,
+                    rootMargin: '0px 0px -60px 0px',
+                    threshold: 0.05
+                };
+
+                const revealObserver = new IntersectionObserver((entries, observer) => {
+                    entries.forEach(entry => {
+                        if (entry.isIntersecting) {
+                            entry.target.classList.add('active');
+                            observer.unobserve(entry.target);
+                        }
+                    });
+                }, observerOptions);
+
+                // Start observing all reveal-enabled elements
+                document.querySelectorAll('.reveal').forEach(el => {
+                    revealObserver.observe(el);
+                });
+
+                // Active nav-link highlighting (Scroll Spy)
+                const sections = document.querySelectorAll('section');
+                const navLinks = document.querySelectorAll('.navbar-custom .nav-link');
+                const progressBar = document.querySelector('.scroll-progress-bar');
+
+                function scrollSpy() {
+                    let current = '';
+                    const scrollPosition = window.scrollY + 150; // offset matching our scroll-padding-top
+
+                    sections.forEach(section => {
+                        const sectionTop = section.offsetTop;
+                        const sectionHeight = section.clientHeight;
+                        if (scrollPosition >= sectionTop) {
+                            current = section.getAttribute('id');
+                        }
+                    });
+
+                    // Fallback to contact section if we are at the very bottom of the page
+                    if ((window.innerHeight + window.scrollY) >= (document.documentElement.scrollHeight - 50)) {
+                        current = 'contact';
+                    }
+
+                    navLinks.forEach(link => {
+                        link.classList.remove('active');
+                        if (link.getAttribute('href') === `#${current}`) {
+                            link.classList.add('active');
+                        }
+                    });
+
+                    // Calculate scroll progress percentage
+                    const winScroll = document.documentElement.scrollTop || document.body.scrollTop;
+                    const height = document.documentElement.scrollHeight - document.documentElement.clientHeight;
+                    const scrolled = height > 0 ? (winScroll / height) * 100 : 0;
+                    if (progressBar) {
+                        progressBar.style.width = scrolled + "%";
+                    }
+                }
+
+                window.addEventListener('scroll', scrollSpy);
+                scrollSpy(); // run once on load
+            })
+            .catch(error => {
+                console.error('Error loading JSON data:', error);
+            });
+    </script>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
+
+</html>
