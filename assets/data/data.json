@@ -15,21 +15,21 @@
   "education": [
     {
       "year": "2014",
-      "degree": "Bachelor of Computer Science (B.C.SC – Hons.)",
+      "degree": "Bachelor of Computer Science (B.C.SC - Hons.)",
       "university": "University of Computer Studies, Yangon",
-      "description": "Specialized in Software Engineering."
+      "description": "Earned an Honors degree with a core specialization in Software Engineering."
     },
     {
       "year": "2024",
-      "degree": "Azure Developer Associate (AZ-204)",
+      "degree": "Azure Developer Associate (AZ - 204)",
       "university": "Microsoft Certified",
-      "description": "Certification validates the skills and knowledge required to design, build, test, and maintain cloud applications and services on Microsoft Azure."
+      "description": "Validates core skills to design, build, test, and maintain Microsoft Azure cloud applications and services."
     },
     {
       "year": "2016",
-      "degree": "Web Development with Domain Driven Design Architecture",
+      "degree": "Web Development with Domain-Driven Design Architecture",
       "university": "Myanmar Computer Professionals Association",
-      "description": "Comprehensive Web Development Training (Frontend & Backend) with Domain-Driven Design (DDD) Architecture."
+      "description": "Completed an intensive full-stack development program focused on building scalable frontend and backend applications using Domain-Driven Design Architecture."
     }
   ],
   "experience": [
@@ -73,19 +73,27 @@
   "skills": [
     {
       "category": "Frontend Development",
-      "items": ["React", "TypeScript", "JavaScript", "HTML5", "CSS3", "Tailwind CSS", "Bootstrap", "jQuery"]
+      "items": ["Vue3", "Flutter", "TypeScript", "JavaScript", "Knockout.js"]
     },
     {
       "category": "Backend Development",
-      "items": ["C#", "ASP.NET Core", "Entity Framework Core", "Dapper", "GraphQL", "REST APIs", "SOAP APIs"]
+      "items": ["C#", "ASP.NET Core", "Entity Framework Core", "REST API", "SOAP API"]
+    },
+    {
+      "category": "Databases",
+      "items": ["Microsoft SQL Server", "Oracle DB", "PostgreSQL", "Redis", "Supabase", "Firestore"]
     },
     {
       "category": "Cloud & DevOps",
-      "items": ["Microsoft Azure", "Azure DevOps", "Docker", "CI/CD", "Git", "GitHub", "Bitbucket"]
+      "items": ["Microsoft Azure", "Firebase", "Docker", "CI/CD", "Azure DevOps", "GitHub Actions"]
     },
     {
-      "category": "Enterprise Solutions",
-      "items": ["OPC UA", "Crystal Reports", "DevExpress"]
+      "category": "Version Control & Tools",
+      "items": ["Git", "GitHub", "Microsoft Power BI", "SSIS", "ETL", "Fast Reports"]
+    },
+    {
+      "category": "Enterprise Integrations",
+      "items": ["Oracle Fusion", "Oracle Utilities CCNB (Customer Care & Billing)", "Payment Gateways"]
     }
   ],
   "contact": {
@@ -115,7 +123,7 @@
         "message": "Tell me about your project..."
       }
     },
-    "email": "khantkoko27@gmail.com"
+    "email": "triplek07@gmail.com"
   },
   "socials": {
     "linkedin": "https://www.linkedin.com/in/khant-ko-ko-a247b0116/",

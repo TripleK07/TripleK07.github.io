@@ -325,9 +325,8 @@
                         const subject = document.getElementById('contactSubject').value || 'Project Inquiry';
                         const message = document.getElementById('contactMessage').value;
 
-                        // Format body for mailto
-                        const body = 
-                            `Name: ${name}\n\nMessage:\n${message}`;
+                        // Format body for mailto as a standard email format
+                        const body = `${message}\n\nRegards,\n${name}`;
 
                         // Create mailto URL
                         const mailtoURL = `mailto:${contactData.email}?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`;
